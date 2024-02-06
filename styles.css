@@ -3,16 +3,11 @@ body {
   flex-direction: column;
   margin: 0;
   font-family: "Roboto", sans-serif;
-  height: 100vh;
-}
-
-.body {
-  flex: 1;
 }
 
 .main-image {
-  width: 300px;
-  height: auto;
+  width: 550px;
+  height: 250px;
 }
 
 .item-image {
@@ -21,36 +16,63 @@ body {
 }
 
 .header,
-.footer {
+.hero {
+  width: 50%;
   display: flex;
-  background-color: #1f2937;
-}
-.footer {
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .header {
-  justify-content: space-around;
   align-items: center;
-  padding: 16px;
 }
 
-.header .text {
-  font-size: 24px;
-  color: #f9faf8;
-  font-weight: 700;
+.header-container,
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f2937;
+}
+
+.hero-container {
+  padding: 100px 0;
 }
 
 .header ul {
   display: flex;
-  gap: 16px;
   list-style: none;
+  gap: 16px;
+}
+.header a,
+.hero .paragraph {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 100;
 }
 
-.header a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #e5e7eb;
-  font-weight: 100;
+.hero .paragraph {
+  margin-bottom: 10px;
+}
+.hero .title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+.item {
+  width: 42%;
+}
+button {
+  background-color: #3882f6;
+  padding: 4px 24px;
+  color: #f9faf8;
+  border: transparent solid;
+  border-radius: 4px;
+  font-weight: 700;
 }
