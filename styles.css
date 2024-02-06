@@ -7,7 +7,7 @@ body {
 }
 
 .main-image {
-  width: 47vh;
+  width: 67vh;
   height: 250px;
 }
 
@@ -20,7 +20,7 @@ body {
 
 .header,
 .hero {
-  width: 50%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   gap: 32px;
